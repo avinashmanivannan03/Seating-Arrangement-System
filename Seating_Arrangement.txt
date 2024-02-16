@@ -1,0 +1,29 @@
+
+Class Room 1: 
+
+Row 1- Bench 1: 1
+Row 1- Bench 2: 2
+Row 1- Bench 3: 3
+Row 1- Bench 4: 4
+Row 1- Bench 5: 5
+Row 2- Bench 1: 6
+Row 2- Bench 2: 7
+Row 2- Bench 3: 8
+Row 2- Bench 4: 9
+Row 2- Bench 5: 10
+
+Class Room 2: 
+
+Row 1- Bench 1: 11
+Row 1- Bench 2: 12
+Row 1- Bench 3: 13
+Row 1- Bench 4: 14
+Row 1- Bench 5: 15
+Row 1- Bench 6: 16
+Row 1- Bench 7: 17
+Row 2- Bench 1: 18
+Row 2- Bench 2: 19
+Row 2- Bench 3: 20
+
+Class Room 3: 
+
