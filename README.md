@@ -1,20 +1,30 @@
-Description:
-The code provided is a Java program for generating a seating arrangement for students in classrooms. It includes a Graphical User Interface (GUI) built with Swing for user interaction. The program allows the user to input the number of classrooms, the number of benches and rows in each classroom, and the total number of students. It then assigns seats to students and displays the seating arrangement in the GUI.
+# Seating Arrangement GUI
 
-Components:
--> Main Class (Seating_Arrangement_GUI_Integrated):
-This class contains the main method and handles the GUI initialization and user interactions.
-It creates a JFrame and adds input fields, output area, and a button for starting the seating arrangement.
-The createAndShowGUI method initializes the GUI components.
--> Input panel (createInputPanel) creates input fields for classrooms, benches, rows, and students.
--> Output panel (createOutputPanel) creates a text area for displaying the seating arrangement.
-The startSeatingArrangement method processes user inputs, assigns seats to students, and displays the arrangement.
--> Student and Class_room Classes:
-Student class represents a student with a roll number, row, and bench.
-Class_room class represents a classroom with a room number, number of benches, number of rows, and a list of students.
--> Assigning Seats (assignSeat Method):
-The assignSeat method iterates through classrooms, rows, and benches to assign seats to students.
-It checks for seat availability and assigns a seat if available.
--> Displaying and Writing to File (displayAndWriteToFile Method):
-The displayAndWriteToFile method displays the seating arrangement in the GUI and writes it to a text file named "Seating_Arrangement.txt".
-It iterates through classrooms and students, printing their seating details to the GUI and the text file.
+This Java program implements a seating arrangement system for classrooms using a graphical user interface (GUI) built with Swing.
+
+## Description
+The program allows the user to input the number of classrooms, the number of benches and rows in each classroom, and the total number of students. Then, it assigns seats to each student in the classrooms based on availability.
+
+### Features
+- Input fields for number of classrooms, benches, rows, and students
+- Display of seating arrangement in the GUI output area
+- Writing the seating arrangement to a text file
+
+## How to Use
+1. Run the program.
+2. Input the number of classrooms, benches, rows, and students.
+3. Click on the "START SEATING ARRANGEMENT" button.
+4. Follow the prompts to input classroom details and student roll numbers.
+5. The seating arrangement will be displayed in the GUI output area.
+6. The seating arrangement will also be written to a text file named "Seating_Arrangement.txt".
+
+## Requirements
+- Java Development Kit (JDK)
+- Swing GUI library
+
+## How to Run
+Compile and run the `Seating_Arrangement_GUI_Integrated.java` file.
+
+```bash
+javac Seating_Arrangement_GUI_Integrated.java
+java Seating_Arrangement_GUI_Integrated
