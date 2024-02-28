@@ -27,6 +27,11 @@ The program allows the user to input the number of classrooms, the number of ben
 5. The seating arrangement will be displayed in the GUI output area.
 6. The seating arrangement will also be written to a text file named "Seating_Arrangement.txt".
 
+## Files
+- `Seating_Arrangement_Concept.java`: Contains backend logic for the seating arrangement concept.
+- `Seating_Arrangement_GUI_Integrated.java`: Integrates backend logic with a graphical user interface.
+- `Seating_Arrangement_Output_Sample.txt`: Contains the Sample of Output stored in a Text File after User Input.
+
 ## Requirements
 - Java Development Kit (JDK)
 - Swing GUI library
